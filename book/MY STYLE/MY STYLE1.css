@@ -1,0 +1,80 @@
+﻿body 
+{
+	width:100%;
+	margin-left:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border:outset 1px white;
+	
+}
+h1
+{
+    color :Yellow;
+    width: 460px;
+    height: 0px;
+    margin-top: 0px;
+    margin-bottom: 1px;
+}
+ h3
+ {
+     color :Aqua ;
+     
+     }
+h2
+{
+	 color:Yellow;
+	 font-family:Comic Sans MS;
+	 font-size:larger;
+	
+}
+#hmnu
+{
+ list-style:none;
+ margin:0px;
+ padding:0px;
+ width: 670px;
+}
+#hmnu li
+{
+	display:inline;
+	padding:5px;
+	border-left:solid 1px red;
+}
+#hmnu li a
+{
+	color:White;
+	font-family: MS Sans Serif, Sans-Serif;
+	font-weight:bold;
+	font-size:14px;
+	text-decoration:none;
+}
+#hmnu li a:Hover
+{
+	color:Green;
+	text-decoration:underline;
+}
+#vmnu
+{
+	list-style:none;
+	margin:0px 20px 0px 0px;
+	padding:0px;
+	background-color:#B9DCFF;
+}
+#vmnu li
+{
+	padding:5px;
+	border-bottom:solid 1px white;
+    width: 195px;
+}
+#vmnu li a
+{
+	color:Black;
+	text-decoration:none;
+	font-family:Sans-Serif, MS Reference Sans Serif;
+	font-size:12px;
+	
+}
+#vmnu li a:Hover
+{
+ color:Fuchsia;	
+}

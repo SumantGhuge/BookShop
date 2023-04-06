@@ -1,0 +1,110 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/MY MASTER.master" AutoEventWireup="true" CodeFile="My Sale.aspx.cs" Inherits="My_Sale" Title="Untitled Page" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <style type="text/css">
+
+        .style4
+        {
+            width: 179px;
+        }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder2" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+    <table border="1px" style="width: 87%; height: 291px;">
+    <tr>
+        <td class="style4">
+            Check your Mobile no:-</td>
+        <td style="width: 84px">
+            <asp:TextBox ID="TxtMob" runat="server" Width="177px"></asp:TextBox>
+        </td>
+    </tr>
+    
+    <tr>
+        <td class="style4">
+            Select Course</td>
+        <td style="width: 84px">
+            <asp:DropDownList ID="DpCourse" runat="server" Height="17px" Width="70px">
+                <asp:ListItem>MCA</asp:ListItem>
+                <asp:ListItem>M.Tech</asp:ListItem>
+                <asp:ListItem>BCA</asp:ListItem>
+                <asp:ListItem>MBA</asp:ListItem>
+                <asp:ListItem>BBA</asp:ListItem>
+            </asp:DropDownList>
+        </td>
+    </tr>
+    
+    <tr>
+        <td class="style4">
+            Enter Branch</td>
+        <td style="width: 84px">
+            <asp:DropDownList ID="Dpbranch" runat="server" Height="16px" Width="66px">
+                <asp:ListItem>MCA</asp:ListItem>
+                <asp:ListItem>BCA</asp:ListItem>
+                <asp:ListItem>M.Tech</asp:ListItem>
+                <asp:ListItem>Marketing</asp:ListItem>
+                <asp:ListItem>CS</asp:ListItem>
+                <asp:ListItem>IT</asp:ListItem>
+                <asp:ListItem>ELetrical</asp:ListItem>
+                <asp:ListItem>ME</asp:ListItem>
+                <asp:ListItem>Civil</asp:ListItem>
+                <asp:ListItem>Electronic</asp:ListItem>
+                <asp:ListItem>Marketing</asp:ListItem>
+                <asp:ListItem>H.R</asp:ListItem>
+                <asp:ListItem>Retail</asp:ListItem>
+                <asp:ListItem></asp:ListItem>
+            </asp:DropDownList>
+        </td>
+    </tr>
+    <tr>
+        <td class="style4">
+            Enter Semister</td>
+        <td style="width: 84px">
+            <asp:DropDownList ID="Dpsem" runat="server" Height="16px" Width="67px">
+                <asp:ListItem>I</asp:ListItem>
+                <asp:ListItem>II</asp:ListItem>
+                <asp:ListItem>III</asp:ListItem>
+                <asp:ListItem>IV</asp:ListItem>
+                <asp:ListItem>V</asp:ListItem>
+                <asp:ListItem>VI</asp:ListItem>
+                <asp:ListItem>VII</asp:ListItem>
+                <asp:ListItem>VIII</asp:ListItem>
+            </asp:DropDownList>
+        </td>
+    </tr>
+    
+    <tr>
+        <td class="style4">
+            Enter Branch</td>
+        <td style="width: 84px">
+            <asp:DropDownList ID="DropDownList1" runat="server" Height="16px" Width="109px">
+                <asp:ListItem>SHIVANI</asp:ListItem>
+                <asp:ListItem>ARROW</asp:ListItem>
+                <asp:ListItem>20-Questons</asp:ListItem>
+                <asp:ListItem>BALAJI</asp:ListItem>
+                <asp:ListItem>VIDYA</asp:ListItem>
+                <asp:ListItem>Other</asp:ListItem>
+                <asp:ListItem></asp:ListItem>
+              
+               
+            </asp:DropDownList>
+        </td>
+    </tr>
+    <tr>
+        <td class="style4">
+            Enter Price of Book</td>
+        <td style="width: 84px">
+            <asp:TextBox ID="txtprice" runat="server" Width="177px"></asp:TextBox>
+        </td>
+    </tr>
+    <tr>
+        <td class="style4">
+            Edition Year of Book</td>
+        <td style="width: 84px">
+            <asp:TextBox ID="Txtediton" runat="server" Width="177px"></asp:TextBox>
+        </td>
+    </tr>
+    </table> 
+</asp:Content>
+

@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MY MASTER.master.cs" Inherits="MY_Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>BOOK SHOP</title>
+    <link href="MY STYLE/MY STYLE1.css" rel="Stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <style type="text/css">
+        .style1
+        {
+            width: 56px;
+        }
+        .auto-style1 {
+            width: 23%;
+        }
+        .auto-style2 {
+            height: 331px;
+        }
+        .auto-style3 {
+            width: 56px;
+            height: 91px;
+        }
+        .auto-style4 {
+            height: 91px;
+        }
+    </style>
+    
+</head>
+<body>
+    <form id="form1" runat="server">
+       <table border="0px" width="100%" cellpadding="0" cellspacing="0" bgcolor="#ffffc4">
+            <tr>
+                <td class="auto-style3">
+                    <img src="MY IMAGES/book.gif"  alt="logo1" 
+                        style="width: 131px; height: 91px" /></td >
+                <td style="background-color:Purple" class="auto-style4">
+                    <h1 style="height: 34px" >&nbsp;&nbsp; My NeXt BoOKs.CoM</h1>
+                     <h3>&nbsp;&nbsp;  BoOKs FoR YoU</h3>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" 
+                    style="background-image:url('MY IMAGES/strip1.jpg')">                    
+                      <ul id="hmnu">
+                            <li><B><a href="MY HOME.aspx">Home</a></li>
+                            <li><a href="My sale.aspx">Book Sale</a></li>
+                            <li><a href="My Search.aspx">Search BOOk</a></li>
+                            <li><a href="Login_page.aspx">LOG_IN</a></li>
+                            <li><a href="My Gallery.aspx">Image Gallery</a></li>
+                            <li><a href="About_Us.aspx">About Us</a></li>
+                            <li><a href="Contact_Us.aspx">Contact Us</a></li>
+                       
+                      </ul>
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <table border="0px" width="100%" bgcolor="white" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td class="auto-style1">
+                                 <ul id="vmnu">
+                                     <li><B><a href="registration_password.aspx">Log-In Account</a></li> 
+                                     <li><B><a href="add_comment1.aspx">Feedbback</a></li> 
+                                 <li><B><a href="My Registration.aspx">Registration</a></li>
+                                    <li><a href="Top_Books.aspx">Top Books</a></li>
+                                    <li><a href="My Search.aspx">Search Books</a></li>
+                                    <li><a href="Articales.aspx">Search Articals</a></li>
+                                    <li><a href="security.aspx">IT Security Books</a></li>
+                                    <li><a href="publisher.aspx">Top Publisher</a></li>
+                                        
+                               </ul>     
+                                     <a href="#">
+                                     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                                         <asp:Image ID="Image1" runat="server" Height="116px" ImageUrl="~/MY IMAGES/33.jpg" Width="230px" />
+                                     </asp:ContentPlaceHolder>
+                                     </a>     
+                            </td>
+                            <td valign="top">
+                                 <table border="0px" width="100%" cellpadding="1" cellspacing="1" 
+                                     style="height: 299px; margin-top: 6px;" align="center" bgcolor="#CC9900">
+                                    <tr>
+                                        <td align="justify" bgcolor="#FF6600" class="auto-style2">
+                                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                <p style="height: 323px" align="center" lang="aa">
+                                                </p>
+                                     </asp:ContentPlaceHolder>
+                                        </td>
+                                        
+                                    </tr>                        
+                                </table>
+                        </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                   &nbsp
+                
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                   
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                         <center>&copy All Rights Reserved</center>
+                </td>
+            </tr>
+       </table>
+    </form>
+</body>
+</html>
